@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  margin: auto;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+
+.header_banniere {
+  height: 10em;
+  background-image: url("/exo_Open_Class_Room/asset/image/bannire822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  margin: 2em;
+}
+
+.img_cocotier {
+  width: 10%;
+}
+
+main {
+  border: solid 3px black;
+  margin: 2em;
+}
+
+.menu_recette {
+  background-image: url("/exo_Open_Class_Room/asset/image/bannire822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.name_recette {
+    display: flex;
+    justify-items:flex-start;
+}
+
+
