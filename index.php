@@ -36,9 +36,9 @@ $recettes =
                 <li class="menu_recette">
 
                     <a class="name_recette" href="#">
-                        <?php
+                        <h2><?php
                         echo $recettes[0];
-                        ?>
+                        ?></h2>
                         <img class="img_recette" src="./asset/image/Goulash5c369533-289c-4d64-b76c-a5bcdaab899c.png" alt="#">
                     </a>
 
