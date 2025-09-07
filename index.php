@@ -1,7 +1,7 @@
 <?php
 // ddéclaration des tableaux
 $recettes =
-    ['Goulash', 'Dombré Crevette', 'Gratin Dauphinois', 'Couscous', 'Les Burgers'];
+    ['Goulash', 'Dombré Crevette', 'Gratin Dauphinois', 'Couscous', 'Les Burgers', 'Les Lasagnes'];
 
 ?>
 
@@ -39,22 +39,46 @@ $recettes =
                         <?php
                         echo $recettes[0];
                         ?>
+                        <img class="img_recette" src="./asset/image/Goulash5c369533-289c-4d64-b76c-a5bcdaab899c.png" alt="#">
                     </a>
+
                     <a class="name_recette" href="#">
                         <?php
                         echo $recettes[1];
                         ?>
+                        <img class="img_recette" src="./asset/image/dombré_crevettea77e7a58-ff19-43a0-94e8-af4bd4c51092.png" alt="#">
                     </a>
+
                     <a class="name_recette" href="#">
                         <?php
                         echo $recettes[2];
                         ?>
+                        <img class="img_recette" src="./asset/image/gratin_dauphinoisee0c0a01-404a-4b4a-a5c1-30a8e5d00be7.png" alt="#">
                     </a>
+
                     <a class="name_recette" href="#">
                         <?php
                         echo $recettes[3];
                         ?>
+                        <img class="img_recette" src="./asset/image/couscous052abbd5-2359-4272-8e16-1942b23c981b.png" alt="#">
                     </a>
+
+                    <a class="name_recette" href="#">
+                        <?php
+                        echo $recettes[4];
+                        ?>
+                        <img class="img_recette" src="./asset/image/burger2abccd0b-6dca-4e36-a25c-4ed820f4c265.png" alt="#">
+                    </a>
+
+                    <a class="name_recette" href="#">
+                        <?php
+                        echo $recettes[5];
+                        ?>
+                        <img class="img_recette" src="./asset/image/lasagneb48c27c0-2325-4761-a23d-5cddbec2c6c5.png" alt="#">
+                    </a>
+
+
+                    
 
                 </li>
             </ul>

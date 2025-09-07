@@ -17,7 +17,7 @@ h1 {
 }
 
 .header_banniere {
-  height: 10em;
+  height: 25em;
   background-image: url("/exo_Open_Class_Room/asset/image/bannire822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
   border: 3px solid black;
   display: flex;
@@ -45,7 +45,12 @@ main {
 
 .name_recette {
     display: flex;
-    justify-items:flex-start;
+    flex-direction: column;
+
 }
 
-
+ .img_recette {
+    border-radius: 25px;
+    border: 3px solid white;
+     width: 15%;
+ }
