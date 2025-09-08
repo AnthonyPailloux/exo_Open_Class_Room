@@ -5,29 +5,33 @@
   list-style-type: none;
   list-style: none;
   text-decoration: none;
-  color: white;
 }
 
 h1 {
-  font-size: 50px;
-  margin: auto;
+  font-size: 2.5em;
   white-space: nowrap;
   display: flex;
   justify-content: center;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 100px;
+  padding: 1em 6em 1em 6em;
+  background-image: url("/exo_Open_Class_Room/asset/image/vue_hublot3ee20d-8c5f-45fc-be35-b74c0d285119.png");
 }
 
-h2 {
-  background-color: #FCB900;
+/* h2 {
+  background-color: white;
   width: 6.8em;
-  display: flex;
-  justify-content: center;
-}
+ 
+} */
 
 .header_banniere {
-  height: 25em;
-  background-image: url("/exo_Open_Class_Room/asset/image/bannire822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
+  height: 20em;
+  background-image: url("/exo_Open_Class_Room/asset/image/banniere822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
   border: 3px solid black;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: 2em;
 }
@@ -42,23 +46,28 @@ main {
 }
 
 .menu_recette {
-  background-image: url("/exo_Open_Class_Room/asset/image/bannire822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
-  font-size: 50px;
+  background-image: url("/exo_Open_Class_Room/asset/image/sable5s54f45fg4h4yk4k5i5f5d5.png");
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  
 }
 
 .name_recette {
-    display: flex;
-    flex-direction: column;
-  background-color: #FCB900;
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #317B4F; */
+  background-image: url("/exo_Open_Class_Room/asset/image/banniere822e8752-e6f2-4690-b68c-7dd2b85847d3.png");
+  margin: 0.5em;
+  border: solid 3px black;
+  border-radius: 25px;
+  color: white;
 }
 
- .img_recette {
-  
-    border-radius: 25px;
-    border: 3px solid white;
-     width: 50%;
- }
+.img_recette {
+  border-radius: 25px;
+  border: 3px solid black;
+  width: 90%;
+  margin: 5%;
+}
